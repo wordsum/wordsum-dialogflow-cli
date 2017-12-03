@@ -1,0 +1,60 @@
+{
+  "id": "89a3a9fd-5bda-4b40-9cf8-9bd53cf540ef",
+  "name": "buy.item.cost",
+  "auto": true,
+  "contexts": [
+    "buy-item-quantity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "buy-item-cost",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "sell",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell-item",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell-item-amount",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "14b9cb63-62b9-4938-baed-412bf0d8b6e4",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "buyItemCost",
+          "value": "$buyItemCost",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "We are searching for #buy-item-quantity.buyItemQuantity  #buy-item.buyItem at the cost of $buyItemCost..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510632198652,
+  "fallbackIntent": false,
+  "events": []
+}

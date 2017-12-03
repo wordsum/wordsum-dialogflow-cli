@@ -1,0 +1,15 @@
+[
+  {
+    "id": "4dccd396-c168-4f73-8576-c1f024f2f7a1",
+    "data": [
+      {
+        "text": "sellItem",
+        "alias": "sellItem",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,68 @@
+{
+  "id": "cb29a9b8-2a05-4a69-8f36-7ce1af8df444",
+  "name": "sell.item.cost",
+  "auto": true,
+  "contexts": [
+    "sell-item-quantity"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sell-item-cost",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "buy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-cost",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-quantity",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-confirm",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "ef365701-9b23-4069-b4c0-bdac89173bf0",
+          "dataType": "@sys.any",
+          "name": "sellItemCost",
+          "value": "$sellItemCost"
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "Preparing to sell #sell-item-quantity.sellItemQuantity #sell-item.sellItem at the cost of $sellItemCost..."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510637296791,
+  "fallbackIntent": false,
+  "events": []
+}

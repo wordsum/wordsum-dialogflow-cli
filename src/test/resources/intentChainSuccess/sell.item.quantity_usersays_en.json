@@ -1,0 +1,15 @@
+[
+  {
+    "id": "2397289e-d376-494b-8ae9-55b3f835a7c5",
+    "data": [
+      {
+        "text": "sellItemQuantity",
+        "alias": "sellItemQuantity",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]

@@ -1,0 +1,45 @@
+{
+  "id": "f40d8ac2-5439-4fd7-af47-bccd9a2cb345",
+  "name": "buy.item",
+  "auto": true,
+  "contexts": [
+    "buy"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "buy-item",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1bfcb051-f891-41bc-874e-4efe055be16e",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "buyItem",
+          "value": "$buyItem",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What quantity of $buyItem?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510631200509,
+  "fallbackIntent": false,
+  "events": []
+}

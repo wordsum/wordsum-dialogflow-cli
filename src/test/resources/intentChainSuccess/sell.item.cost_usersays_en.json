@@ -1,0 +1,16 @@
+[
+  {
+    "id": "b3b36820-b789-4a10-abe8-10fc1556bf2d",
+    "data": [
+      {
+        "text": "sellItemCost",
+        "alias": "sellItemCost",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510637296
+  }
+]

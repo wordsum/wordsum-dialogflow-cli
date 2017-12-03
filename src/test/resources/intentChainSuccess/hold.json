@@ -1,0 +1,79 @@
+{
+  "id": "9d057603-0d78-409e-a108-8300924055dd",
+  "name": "hold",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sell-item",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-cost",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell-item-amount",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell-item-quantity",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "sell-item-cost",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-quantity",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-confirm",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "It\u0027s okay to hold. Just let us know when you want to Sell, Buy or Hold."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510695645,
+  "fallbackIntent": false,
+  "events": []
+}

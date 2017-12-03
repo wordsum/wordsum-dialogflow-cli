@@ -1,0 +1,69 @@
+{
+  "id": "d7c5df44-8dc1-4e81-8fc5-b0c69be91177",
+  "name": "sell.item",
+  "auto": true,
+  "contexts": [
+    "sell"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sell-item",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "buy-item-quantity",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-cost",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-confirm",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "b5ba797c-a2b1-493d-9560-06e97429b753",
+          "dataType": "@sys.any",
+          "name": "sellItem",
+          "value": "$sellItem",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "How many $sellItem do you want to sell?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510630422443,
+  "fallbackIntent": false,
+  "events": []
+}

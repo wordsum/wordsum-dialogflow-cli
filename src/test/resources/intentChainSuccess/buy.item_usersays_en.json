@@ -1,0 +1,16 @@
+[
+  {
+    "id": "172585b5-1e07-4c30-a46c-902013d9f947",
+    "data": [
+      {
+        "text": "buyItem",
+        "alias": "buyItem",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 1510631200
+  }
+]

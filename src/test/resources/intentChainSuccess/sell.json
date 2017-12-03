@@ -1,0 +1,54 @@
+{
+  "id": "d9a4bbf1-3927-48c2-9ef9-4cce9cac263b",
+  "name": "sell",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "sell",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "buy",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-quantity",
+          "parameters": {},
+          "lifespan": 0
+        },
+        {
+          "name": "buy-item-cost",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": "What do you want to sell?"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1510626321528,
+  "fallbackIntent": false,
+  "events": []
+}
